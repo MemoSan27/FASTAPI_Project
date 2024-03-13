@@ -7,6 +7,8 @@ USER = {
     'password': 'password'
 }
 
+""" memo 2"""
+
 response = requests.post(URL + 'login', json=USER)
 
 if response.status_code == 200:
